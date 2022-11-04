@@ -1,39 +1,46 @@
 import React from "react";
 
 const Card = () => {
-    return <div className="card-group col-9 mx-auto">
-    <div className="card">
-      <img src="..." className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+  const image_style={
+    width: "18rem"
+  }
+
+  return( 
+    <div className="col-9 d-flex mx-auto">
+      <div className="card ms-1 me-1" style={image_style}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDI4rgxbjoRk5v_RufxNCOWZj5PbWC2f4BGY9XC_x6&s" className="card-img-top" alt="..."/>
+          <div className="card-body text-center">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat egestas lectus, bibendum commodo nisl imperdiet a.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+      </div>
+      <div className="card ms-1 me-1" style={image_style}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDI4rgxbjoRk5v_RufxNCOWZj5PbWC2f4BGY9XC_x6&s" className="card-img-top" alt="..."/>
+          <div className="card-body text-center">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat egestas lectus, bibendum commodo nisl imperdiet a. Etiam interdum, ex sit amet ultricies hendrerit, augue urna dictum turpis, ac consectetur sem justo et arcu. Praesent a auctor nibh.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+      </div>
+      <div className="card ms-1 me-1" style={image_style}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDI4rgxbjoRk5v_RufxNCOWZj5PbWC2f4BGY9XC_x6&s" className="card-img-top" alt="..."/>
+          <div className="card-body text-center">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat egestas lectus, bibendum commodo nisl imperdiet a.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+      </div>
+      <div className="card ms-1 me-1" style={image_style}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDI4rgxbjoRk5v_RufxNCOWZj5PbWC2f4BGY9XC_x6&s" className="card-img-top" alt="..."/>
+          <div className="card-body text-center">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat egestas lectus, bibendum commodo nisl imperdiet a. Etiam interdum, ex sit amet ultricies hendrerit, augue urna dictum turpis, ac consectetur sem justo et arcu. Praesent a auctor nibh</p>
+            <a href="#" className="btn btn-primary ">Find Out More!</a>
+          </div>
       </div>
     </div>
-    <div className="card">
-      <img src="..." className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div className="card">
-      <img src="..." className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div className="card">
-      <img src="..." className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-}
+      
+      
+)}
 export default Card
