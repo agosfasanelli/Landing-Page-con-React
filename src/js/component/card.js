@@ -1,7 +1,7 @@
-import react from "react";
+import React from "react";
 
 const Card = () => {
-    return <div className="card-group">
+    return <div className="card-group col-9 mx-auto">
     <div className="card">
       <img src="..." className="card-img-top" alt="..."/>
       <div className="card-body">

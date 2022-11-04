@@ -13,9 +13,6 @@ const Home = () => {
 		<Navbar />
 		<Jumbotron />
 		<Card />
-		<div className="text-center">
-			<h1>Hola Mundo</h1>
-		</div>
 		</>
 	);
 };
