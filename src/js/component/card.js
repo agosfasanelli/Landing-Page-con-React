@@ -12,7 +12,7 @@ const Card = () => {
           <div className="card-body text-center">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat egestas lectus, bibendum commodo nisl imperdiet a.</p>
-            <a href="#" className="btn btn-primary">Find Out More!</a>
+            <a href="#" className="btn btn-primary mb-2 mt-5">Find Out More!</a>
           </div>
       </div>
       <div className="card ms-1 me-1" style={image_style}>
